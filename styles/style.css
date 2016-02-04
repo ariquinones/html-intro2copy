@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+#container {
+	max-width: 100%;
+	background: rgb(73, 144, 207);
+	padding: 1px;
+	margin: auto;
+}
+.col {
+	display: inline-block;
+	height: 600px;
+	width: 33%;
+	vertical-align: top;
+}
+.text {
+	color: white;
+	margin: 20px 20px 0 20px; 
+	padding-left: 2px; 
+	font-weight: bold;
+}
+.textbox {
+	margin-left: 22px; 
+}
+
+::-webkit-input-placeholder {
+	font-size: 12px; 
+	font-weight: bold;
+    color: rgb(33,85,136);
+    font-style: italic;
+}
+:-moz-placeholder {
+	font-size: 12px; 
+	font-weight: bold;
+    color: rgb(33,85,136);
+    font-style: italic;
+}
+::-moz-placeholder {
+	font-size: 12px; 
+	font-weight: bold;
+    color: rgb(33,85,136);
+    font-style: italic;	
+}
+input[type="text"] {
+	color: white;
+	font-size: 14px; 
+}
+
+textarea {
+	min-height: 150px;
+	min-width: 80%;
+	background: none;
+	border: 3px solid white;
+	border-radius: 1px; 
+	text-align: top; 
+	resize: none;
+	border: 1px solid white; 
+	color: white; 
+	font-size: 14px; 
+	margin-left: 22px; 
+}
+input {
+	background: none; 
+	min-width: 80%; 
+	min-height: 30px; 
+	border-radius: 1px; 
+	border: 2px solid white;
+	padding-left: 3px; 
+}
+input:focus {	
+ 	outline: none;
+}
+select {
+	min-width: 80%; 
+	background: none;
+	border: 2px solid white;
+	color: white; 
+	margin-left: 22px;
+}
+
+@media only screen and (max-width: 780px) {
+	.col {
+		display: block;
+		width: 100%;	
+		 }
+}
