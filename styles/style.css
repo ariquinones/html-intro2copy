@@ -1,6 +1,9 @@
 * {
 	box-sizing: border-box;
 }
+body {
+	margin: 0px;
+}
 #container {
 	max-width: 100%;
 	background: rgb(73, 144, 207);
@@ -81,6 +84,6 @@ select {
 @media only screen and (max-width: 780px) {
 	.col {
 		display: block;
-		width: 100%;	
-		 }
+		width: 100%;
+		}
 }
